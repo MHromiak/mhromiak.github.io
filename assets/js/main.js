@@ -119,7 +119,7 @@
   $('.back-to-top').click(function() {
     $('html, body').animate({
       scrollTop: 0
-    }, 1500, 'easeInOutExpo');
+    }, 1000, 'easeInOutExpo');
     return false;
   });
 
@@ -141,7 +141,7 @@
   // Init AOS
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 1100,
       once: true
     });
   }
