@@ -232,7 +232,8 @@
 
   // FaceBlurrer details carousel
   $(".faceblurrer-details-carousel").owlCarousel({
-    autoplay: false,
+    autoplayTimeout: 13000,
+    autoplay: true,
     dots: true,
     loop: true,
     items: 1
