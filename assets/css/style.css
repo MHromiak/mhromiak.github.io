@@ -248,16 +248,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: url("../img/mobile-hero-bg.jpg") top right no-repeat;
-  /* padding-left: 160px; */
   background-size: cover;
   position: relative;
 }
 
-/* @media (min-width: 992px) {
-  #hero {
-    padding-left: 160px;
-  }
-} */
 
 @media (min-width: 700px) {
   #hero {
@@ -406,6 +400,8 @@ section {
   margin-bottom: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -445,7 +441,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;

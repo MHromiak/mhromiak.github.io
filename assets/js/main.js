@@ -180,9 +180,67 @@
     items: 1
   });
 
-  // Portfolio details carousel
+  // Default details carousel
   $(".portfolio-details-carousel").owlCarousel({
+    autoplay: false,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // Scripts details carousel
+  $(".scripts-details-carousel").owlCarousel({
+    autoplay: false,
+    dots: true,
+    loop: false,
+    items: 1
+  });
+
+  // Wasteland Sort details carousel
+  $(".wasteland-details-carousel").owlCarousel({
+    autoplayTimeout: 8000,
     autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // Roboethical Charter details carousel
+  $(".charter-details-carousel").owlCarousel({
+    autoplayTimeout: 8000,
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // DrivingForce details carousel
+  $(".drivingforce-details-carousel").owlCarousel({
+    autoplay: false,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // Hangman details carousel
+  $(".hangman-details-carousel").owlCarousel({
+    autoplay: false,
+    dots: true,
+    loop: false,
+    items: 1
+  });
+
+  // FaceBlurrer details carousel
+  $(".faceblurrer-details-carousel").owlCarousel({
+    autoplay: false,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // Mapp details carousel
+  $(".mapp-details-carousel").owlCarousel({
+    autoplay: false,
     dots: true,
     loop: true,
     items: 1
