@@ -1174,3 +1174,12 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+/*--------------------------------------------------------------
+# Videos for Portfolio Details
+--------------------------------------------------------------*/
+.mobile-detail-vid{
+  height: 100%;
+  width: 100%;
+}
