@@ -370,8 +370,15 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 5000;
 }
+
+.blurb {
+  margin-bottom: 5;
+  color: gray;
+}
+
+
 
 /*--------------------------------------------------------------
 # About

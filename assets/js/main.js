@@ -247,4 +247,30 @@
     items: 1
   });
 
+  // RPM details carousel
+  $(".rpm-details-carousel").owlCarousel({
+    autoplayTimeout: 8000,
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // Mnist details carousel
+  $(".mnist-details-carousel").owlCarousel({
+    autoplay: false,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  // RPM details carousel
+  $(".mhi-details-carousel").owlCarousel({
+    // autoplayTimeout: 20000,
+    autoplay: false,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
 })(jQuery);
